@@ -1,5 +1,5 @@
 {
-    "name": "uvdesk/automation-bundle",
+    "name": "ronanbriot/automation-bundle",
     "description": "UVDesk Community Helpdesk Automations Bundle",
     "type": "symfony-bundle",
     "license": "MIT",
