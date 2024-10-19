@@ -9,7 +9,12 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 class UVDeskExtension extends Extension
 {
-    public function getAlias()
+    /**
+     *
+     * @return string
+     *
+     */
+    public function getAlias(): string
     {
         return 'uvdesk_automations';
     }
