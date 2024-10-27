@@ -15,6 +15,7 @@ class AutomationService
 	private $container;
 	private $requestStack;
     private $entityManager;
+    private $translator;
 
 	public function __construct(ContainerInterface $container, RequestStack $requestStack, EntityManagerInterface $entityManager, TranslatorInterface $translator)
 	{
